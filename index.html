@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- Sample notation in HTML format -->
+<html>
+<head>
+ 	<meta charset="UTF-8">
+	<title>Notes on Basics of HTML and CSS</title>
+	<link rel="stylesheet" type="text/css" href="udacity_project.css">
+</head>
+<body>
+<h1> Key Concepts on HTML and CSS</h1>
+<!-- Notes on Lesson 1 - Intro To HTML/CSS -->
+	<div class="LessonTypeA">
+		<h2>Lesson 1: Basics of HTML and the Web</h2>
+		<div class="LessonTopics">
+		Major pieces of the web: Browser -> Internet -> HTTP Request to Server -> The the same in reverse
+
+				HTML - Hypertext markup language, main web doc type:
+						<ul>
+						<li>
+						Heart of the web
+						 </li>
+						 <li>Made up of text content - <em>what you see</em>
+						 </li>
+						 <li>Markup - <em>what it looks like</em>	
+						 </li>
+						 <li>Can include references to - images, videos etc
+						 </li>
+						 <li>Other docs
+						 </li>
+						 <li>Links
+						 </li>
+						</ul>
+				<p>
+				HTML Markup - made up of tags such as b for bold, em for emphasis or italics.
+
+				Image tags (img) do not include a closing tag, these are called <b>void tags</b>.  Good coding calls for alternate text to be provided for images as well.				
+				</p>
+					<p>
+						HTML elements are either <em>inline</em>, or <em>block</em>.  Block elements form an invisible box around the content inside them.  Examples of inline
+						elements are b, img or span.  P, div and others are examples of block elements.
+
+					</p>
+
+						<p>
+						HTML attributes are part of HTML elements, for example using the href attribute to provide the URL
+						in an anchor tag.
+						</p>
+
+						Example: <a href="http://www.google.com">Link to Google</a>
+			</div>
+	</div>
+
+<!-- Notes on Lesson 2 - Adding structure to HTML -->
+
+	<div class="LessonTypeB">
+		<h2>Lesson 2: Adding Structure to HTML Docs</h2>
+			<div class=LessonTopics>		
+				<ul>
+					<li>
+					HTML and CSS are both languages
+					</li>
+					<li>HTML controls the "structure" of a web page
+					</li>
+					<li>CSS controls the "style" of a page (how it looks). Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language.
+					</li>
+					<li>When programmers talk about the "DOM" (Document Object Model) they are talking about the tree-like structure of a page.  The tree structure allows elements to have other elements inside of them.
+					</li>
+					<li>Structure is important when coding your HTML documents as it allows for easy review of your work.  An example of this would be to add a logical structure, such as a setting up one a set of styles that can be easily reused for your purpose.  Time is saved for everyone - the person coding and the end user who will get a page to load more quickly.
+					</li>
+					<li>
+					 Properly nested code will have identantions which will go deeper and deeper the more nexted they are within their box.
+					</li>
+					<li>Inspecting elements and developer tools in your browser can be a huge time saver for troubleshooting and design direction.
+					 </li>
+				</ul>
+			
+			</div>
+	</div>
+
+<!-- Notes on Lesson 3 - Adding CSS to HTML -->
+
+	<div class="LessonTypeA">
+		<h2>Lesson 3: Adding CSS to HTML</h2>
+			<div class=LessonTopics>		
+				<ul>
+					<li>
+					CSS code will allow you to process repeated formatting quickly and easily.  It can be applied to the entire sheet, an identified class or even elements.
+					</li>
+					<li>HTML controls the "structure" of a web page
+					</li>
+					<li>CSS controls the "style" of a page (how it looks). Cascading Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language. Although you can apple style directly in your HTML doc, that is only recommended for very short lines of code.  A standalone CSS file is the best route.
+					</li>
+					<li>The item you will be "styling" is called a "selector".  The <em>declation</em>is what you are modifying (font size, color) to which value (for example red font, size 12). The following website provides reference materials on this <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Guide</a>
+					</li>
+					<li>CSS works by applying a major rule when it comes to "cascading".  It is a rule of inheritance - it basically states that properties assigned to a specific element will not only apply to the specified element, but also to it's descendants. <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">This website explains the rule in detail</a>
+					</li>
+					<li>
+					<em>Flexbox</em> allows for easily manipulation of boxes for alignment.  <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">This site provides the ins and outs of how it works</a>
+					</li>
+					<li>Always keep in mind the 4 box componenets (margin, border, padding and content).  Sizing by percentage is almost always a better bet than pixels to help account for varied resolutions.
+					 </li>
+					<li>When coding, look for natural boxes, repeated styles/semantic elements, write the HTML, apply styles(from biggest to smallest) and then fix things.  Repeat 3-5 as neccesary.
+					 </li>
+					<li><a href="http://validator.w3.org/#validate_by_input">HTML Validation Site</a>
+					</li>
+					<li><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS Validation Site</a>
+					</li>
+				</ul>
+			
+			</div>
+	</div>
+
+
+
+</body>
+
+</html>
