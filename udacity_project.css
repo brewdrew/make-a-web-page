@@ -1,0 +1,36 @@
+/* This is a sample CSS comment. */
+/* Udacity project CSS style sheet. */
+
+/*This code will apply these style selections to the entire display*/
+*{
+	box-sizing: border-box;
+	font-family: Calibri, Times, Serif;	
+
+}
+
+h1 {
+	text-align: center;
+	color: #03a9f4;
+}
+
+.LessonTypeA {
+	background-color: rgba(160, 189, 202, 0.15);
+	border-radius: 20px;
+	padding: 30px;
+	margin: 5px;
+}
+
+.LessonTopics {
+	border-style:solid;
+	padding: 3px;
+}
+
+.LessonTypeB {
+	background-color: rgba(107, 176, 207, 0.32);
+	border-radius: 20px;
+	padding: 30px;
+}
+
+ul {
+	list-style-type: square;
+}
